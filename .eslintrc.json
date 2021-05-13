@@ -9,9 +9,9 @@
     "react-hooks"
   ],
   "extends": [
-    "plugin: react/recommended",
-    "plugin: @typescript-eslint/recommended",
-    "plugin: prettier:prettier/recommended"
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
   ], 
   "rules": {
     "react-hooks/rules-of-hooks": "error",
