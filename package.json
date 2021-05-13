@@ -1,7 +1,7 @@
 {
   "name": "react-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template for react typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,23 @@
     "type": "git",
     "url": "git+https://github.com/faustaleonardo/react-typescript.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "Fausta Leonardo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/faustaleonardo/react-typescript/issues"
   },
-  "homepage": "https://github.com/faustaleonardo/react-typescript#readme"
+  "homepage": "https://github.com/faustaleonardo/react-typescript#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
+    "typescript": "^4.2.4"
+  }
 }
